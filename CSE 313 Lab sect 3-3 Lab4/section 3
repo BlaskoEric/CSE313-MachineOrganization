@@ -1,0 +1,4 @@
+For part 3 of the lab section. My code hardly takes any more time to correct errors in the binary code. Once the binary value is entered, the function creates a space for 12 bits, creating and additional 4 bits. The second part of the code generates 
+the value for the parity. When the error is created, the program repeats the same function when setting the parity bit
+and is able to detect the error. If the parity check was wrong for more than one of those registers the parity spots are 
+added and that is the result of the bit that needs to be fixed. Since their are no loops in the code, everything runs at constant time, regardless if there is an error that needs to be fixed or not.

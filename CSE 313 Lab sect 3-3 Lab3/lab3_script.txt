@@ -1,0 +1,25 @@
+Script started on 2018-05-10 11:36:41-0700
+]777;notify;Command completed;nasm -f elf64 lab3.s -o lab3.o]0;005670557@csusb.edu@jb359-16:~/cse313/Lab 3]7;file://jb359-16.cse.csusb.edu/home/csusb.edu/005670557/cse313/Lab%203[005670557@csusb.edu@jb359-16 Lab 3]$ nasm -f elf64 lab3.s -o lab3.o
+]777;notify;Command completed;nasm -f elf64 lab3.s -o lab3.o]0;005670557@csusb.edu@jb359-16:~/cse313/Lab 3]7;file://jb359-16.cse.csusb.edu/home/csusb.edu/005670557/cse313/Lab%203[005670557@csusb.edu@jb359-16 Lab 3]$ ld lab3.o - lab[K[K[K[Ko lab3
+]777;notify;Command completed;ld lab3.o -o lab3]0;005670557@csusb.edu@jb359-16:~/cse313/Lab 3]7;file://jb359-16.cse.csusb.edu/home/csusb.edu/005670557/cse313/Lab%203[005670557@csusb.edu@jb359-16 Lab 3]$ ./lab3
+500.312 single precision to Hex = 43FA27F0
+500.312 double precision to Hex = 407F44FFF3B645A2
+
+pi single precision to Hex = 40490FFB
+pi double precision to Hex = 400921FB54442F18
+
+1.456e6 single precision to Hex = 49B1BC00
+1.456e6 double precision to Hex = 4136378000000000
+
+500.312 * 1.456e6 = 7.284543E8 In Hex = 4E2FAF52
+
+1.456e6 single precision in Binary = 01001001101100011011110000000000
+1.456e6 single precision in 2's complement = 10110110010011100100010000000000
+10110110010011100100010000000000 = -3.073597e6 
+
+1.456e6 double precision in Binary = 0100000100110110001101111000000000000000000000000000000000000000
+1.456e6 double precision in 2's complement = 1011111011001001110010001000000000000000000000000000000000000000
+1011111011001001110010001000000000000000000000000000000000000000 = -3.07359733e6 
+]777;notify;Command completed;./lab3]0;005670557@csusb.edu@jb359-16:~/cse313/Lab 3]7;file://jb359-16.cse.csusb.edu/home/csusb.edu/005670557/cse313/Lab%203[005670557@csusb.edu@jb359-16 Lab 3]$ exit
+
+Script done on 2018-05-10 11:37:25-0700
